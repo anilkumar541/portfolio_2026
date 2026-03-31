@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Typography ── */
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* ── Teal (primary) ── */
+  --color-teal: #0C8C6F;
+  --color-teal-dark: #07705A;
+  --color-teal-light: #E4F6F0;
+  --color-teal-vivid: #10B892;
+
+  /* ── Coral (secondary) ── */
+  --color-coral: #E25D3A;
+  --color-coral-dark: #C9492A;
+  --color-coral-light: #FDEDE8;
+
+  /* ── Indigo (tertiary) ── */
+  --color-indigo-brand: #4F5BD5;
+  --color-indigo-dark: #3E4ABF;
+  --color-indigo-light: #ECEEFB;
+
+  /* ── Amber (quaternary) ── */
+  --color-amber-brand: #D4940C;
+  --color-amber-dark: #B57E0A;
+  --color-amber-light: #FEF6E2;
+
+  /* ── Plum (accent) ── */
+  --color-plum: #8B5CF6;
+  --color-plum-light: #F1EBFE;
+
+  /* ── Site background ── */
+  --color-site-bg: #FAFAF7;
+
+  /* ── Custom animations ── */
+  --animate-ping-slow: ping-slow 2s ease-out infinite;
+  --animate-blink: blink 2s ease infinite;
+}
+
+@keyframes ping-slow {
+  0%   { transform: scale(1);   opacity: 0.3; }
+  100% { transform: scale(2.5); opacity: 0;   }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1;    }
+  50%       { opacity: 0.25; }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAFAF7;
+    color: #19191A;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #0C8C6F;
+    color: #fff;
+  }
+}
