@@ -1,6 +1,6 @@
 export const cinemxProject = {
   name: 'CinemX',
-  subtitle: 'A social platform for movie fans — Twitter meets IMDb.',
+  subtitle: 'A social platform for movie fans.',
   url: 'https://cinemxx.com',
   description:
     "CinemX is a full-stack movie community platform I designed, built, and deployed independently. It combines social features (posts, hashtags, group chat, push notifications) with entertainment data (live box office, OTT releases, upcoming movies) and a machine-learning personalized feed. The entire system — scraping pipelines, payment subscriptions, WebSocket real-time layer, news aggregation, and auth security — is production-grade and running live.",

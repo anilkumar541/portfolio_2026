@@ -37,7 +37,7 @@ function BentoGrid() {
             On Demand GMBH
           </p>
           <p className="text-white/45 text-[0.78rem] mt-1">Full Stack Developer</p>
-          <p className="text-white/25 text-[0.7rem] mt-0.5 font-mono">Austria · Remote</p>
+          <p className="text-white/45 text-[0.7rem] mt-0.5 font-mono">Austria · Remote</p>
         </div>
         <div className="flex items-center gap-2 mt-4 pt-4
           border-t border-white/8">
@@ -69,7 +69,7 @@ function BentoGrid() {
           </span>
         </div>
         <p className="text-[0.88rem] font-semibold text-gray-900">Open to new roles</p>
-        <p className="text-[0.7rem] text-gray-500 mt-0.5">Full-time · Freelance</p>
+        <p className="text-[0.7rem] text-gray-500 mt-0.5">Full-time · Freelance · Contract</p>
       </div>
 
       {/* ④ CinemX — full width */}
