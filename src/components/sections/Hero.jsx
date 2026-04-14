@@ -52,7 +52,6 @@ function BentoGrid() {
       <div className="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm">
         <div className="text-[1.8rem] leading-none mb-2">🇮🇳</div>
         <p className="font-semibold text-gray-900 text-[0.88rem]">Mumbai, India</p>
-        <p className="text-[0.7rem] text-gray-400 mt-0.5 font-mono">UTC +5:30</p>
       </div>
 
       {/* ③ Availability */}
